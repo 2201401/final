@@ -7,4 +7,4 @@
 
 システム名:機種管理システム
 
-URL:
+URL:http://2201401.parallel.jp/final/top.php
