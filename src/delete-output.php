@@ -6,6 +6,8 @@ const PASS = '2201401';
 
 $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 ?>
+
+<link rel="stylesheet" href="css/delete-output.css">
 <title>削除完了</title>
 <?php
     $pdo=new PDO($connect, USER, PASS);
@@ -30,6 +32,6 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
     }
 ?> 
 </table>
-    <button onclick="location.href='top.php'">トップ画面へ戻る</button>
+    <p><button onclick="location.href='top.php'">トップ画面へ戻る</button></p>
     </body>
 </html>

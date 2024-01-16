@@ -8,6 +8,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 ?>
 
 <!DOCTYPE html>
+]<link rel="stylesheet" href="css/koushin-output.css">
 <html lang="ja">
 	<head>
 		<meta charset="UTF-8">
@@ -45,6 +46,6 @@ foreach ($pdo->query('select * from phone') as $row) {
 }
 ?>
         </table>
-        <button onclick="location.href='top.php'">トップ画面へ戻る</button>
+        <p><button onclick="location.href='top.php'">トップ画面へ戻る</button></p>
     </body>
 </html>

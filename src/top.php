@@ -10,6 +10,7 @@
 <html lang="ja">
 	<head>
     <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" href="css/top.css">
 		<meta charset="UTF-8">
 		<title>機種一覧</title>
 	</head>
@@ -41,6 +42,6 @@
 ?>
 
     </table>
-    <button onclick="location.href='toroku-input.php'">登録</button>
+    <p><button onclick="location.href='toroku-input.php'">登録</button></p>
     </body>
 </html>

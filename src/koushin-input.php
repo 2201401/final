@@ -11,6 +11,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 <html lang="ja">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/koushin-input.css">
 		<title>更新</title>
 	</head>
 	<body>
@@ -39,7 +40,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 	}
 ?>
 </table>
-<button onclick="location.href='top.php'">トップ画面へ戻る</button>
+<p><button onclick="location.href='top.php'">トップ画面へ戻る</button></p>
     </body>
 </html>
 

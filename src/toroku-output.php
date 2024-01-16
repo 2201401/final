@@ -11,6 +11,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 <html lang ="ja">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/toroku-output.css">
     <title>機種登録完了</title>
 </head>  
 <body>
@@ -44,7 +45,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
         ?>
         </table>
         <form action="top.php" method="post">
-            <button type="subnit">トップ画面へ戻る</button>
+            <p><button type="subnit">トップ画面へ戻る</button></p>
     </form>
     </body>
     </html>

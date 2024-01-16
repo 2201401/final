@@ -6,7 +6,7 @@ const PASS = '2201401';
 
 $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
 ?>
-
+<link rel="stylesheet" href="css/delete-input.css">
 <title>削除</title>
 <table>
     <tr>
@@ -39,6 +39,6 @@ if ($row) {
 
 <p>削除しますか？</p>
 
-    <input type="button" onclick="location.href='top.php'" value="戻る">
-    <input type="button" onclick="location.href='delete-output.php?id=<?= $id ?>'" value="削除">
+    <p><input type="button" onclick="location.href='top.php'" value="戻る"></p>
+    <p><input type="button" onclick="location.href='delete-output.php?id=<?= $id ?>'" value="削除"></p>
 </div>
