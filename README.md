@@ -7,4 +7,4 @@
 
 システム名:機種管理システム
 
-URL:
+URL:https://lolipopftp.lolipop.jp/file/edit/root/final/top.php
