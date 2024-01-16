@@ -18,9 +18,7 @@ $connect = 'mysql:host='. SERVER . ';dbname='. DBNAME .';charset=utf8';
     <?php
     $pdo=new PDO($connect,USER,PASS);
     $sql=$pdo->prepare('insert into phone(id,name,maker) values(?,?,?)');
-    if(!preg_match('/^\d+$/',$_POST['id'])){
-        echo'機種IDを整数で入力してください。';
-    }else if(empty($_POST['name'])){
+    if(empty($_POST['name'])){
         echo'機種名を入力してください。';
     }else if(empty($_POST['maker'])){
         echo'メーカー名を入力してください';
